@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sdust.wearsunshine.MainActivity"
+    tools:deviceIds="wear_round"
+    android:background="@color/wear_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_time"
+        android:text="@string/wear_current_time"
+        android:layout_gravity="center"
+        android:textSize="@dimen/wear_current_time_text_size"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/wear_current_time_margin_top"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/current_date"
+        android:text="@string/wear_current_date"
+        android:layout_gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/sunny"
+            android:contentDescription="@string/wear_weather_description"
+            android:id="@+id/weather_icon"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/current_temp"
+            android:text="25 15"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

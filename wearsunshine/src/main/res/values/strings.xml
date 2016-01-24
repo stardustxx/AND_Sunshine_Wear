@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WearSunshine</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    
+    <string name="wear_current_time">Current Time</string>
+    <string name="wear_current_date">Current Date</string>
+    <string name="wear_weather_description">Weather Icon</string>
+</resources>
